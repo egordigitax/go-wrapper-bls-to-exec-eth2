@@ -1,4 +1,4 @@
-module bls-change-wrapper
+module go-wrapper-bls-to-exec-eth2
 
 go 1.20
 
