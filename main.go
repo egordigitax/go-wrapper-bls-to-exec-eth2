@@ -1,4 +1,4 @@
-package main
+package go_wrapper_bls_to_exec_change
 
 import (
 	"encoding/json"
