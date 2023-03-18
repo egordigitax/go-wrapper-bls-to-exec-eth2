@@ -1,4 +1,4 @@
-module go-wrapper-bls-to-exec-eth2
+module github.com/egordigitax/go-wrapper-bls-to-exec-eth2
 
 go 1.20
 
