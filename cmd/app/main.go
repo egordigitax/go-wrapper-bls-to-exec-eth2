@@ -1,3 +1,5 @@
+//go:build (darwin && cgo) || linux
+
 package main
 
 import (
@@ -16,6 +18,7 @@ type Credential struct {
 }
 
 func (c *Credential) Compute(index int) *BlsExecutionChangeResponse {
+
 	err := types.InitBLS()
 	if err != nil {
 		return nil
